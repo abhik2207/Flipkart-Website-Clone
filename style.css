@@ -70,6 +70,57 @@ nav ul li a:hover {
     padding: 0 12px;
 }
 
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.login button {
+    font-size: 14px;
+    font-weight: 900;
+    color: #2874F0;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    color: #FFFFFF;
+    background-color: #2874F0;
+    border: 2px solid #FFFFFF;
+}
+
+.extras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.cart h4 {
+    padding: 12px;
+}
+
+.cart h4:hover {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
 .container {
     /* min-height: calc(100vh - 12px - 60px - 6vh); */
     min-height: calc(100vh - 60px - 6vh);
